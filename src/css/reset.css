@@ -1,5 +1,11 @@
-body{
+*{
   margin: 0;
   padding: 0;
- background:#1B1B1E;;
+ list-style: none;
+ text-decoration: none;
+
+}
+body{
+  background:#1B1B1E;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

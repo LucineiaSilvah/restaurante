@@ -6,7 +6,7 @@
   padding: 5rem;
 }
 .card{
-  width: 25%;
+
   border: 2px double #ffffff;
   display: flex;
   align-items: center;
@@ -14,12 +14,12 @@
   flex-direction: column;
   position: relative;
   transition: .500s ease-in-out;
+  border-radius: 5px;
 }
 
-.card:hover{
-  scale: 1.2;
-}
+
 .card__descricao{
+  border-radius: 5px 5px 0 0 ;
   margin-top: -20px;
   width: 90%;
   text-align: center;
@@ -30,7 +30,36 @@
 text-transform: uppercase;
 }
 .card__preco{
- 
+  padding: 2rem;
   font-weight: bold;
   color: #FDCC06;
+}
+@media screen and (min-width:0) {
+  .cards{
+    width: 100%;
+    flex-direction: column;
+    
+  }
+  .card{
+    width: 70%;
+    margin-bottom: 4rem;
+    box-shadow: 1px 3px 8px #fd4806;
+  }
+  .card:hover{
+    scale: 1;
+  }
+  
+}
+@media screen and (min-width:768px) {
+  .cards{
+    flex-direction: row;
+  }
+ .card{
+  width: 25%;
+  box-shadow: none;
+  margin-bottom: initial;
+ }
+ .card:hover{
+  scale: 1.2;
+}
 }

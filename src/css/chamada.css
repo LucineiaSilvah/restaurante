@@ -1,5 +1,5 @@
-.chamada{
-overflow: hidden;
+.chamada {
+  overflow: hidden;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -7,23 +7,58 @@ overflow: hidden;
   color: #ffffff;
   font-size: 2rem;
   position: relative;
+  padding: 7rem;
 }
-.chamada h2{
+.chamada h2 {
   text-transform: uppercase;
-  color: #FDCC06;
+  color: #fdcc06;
 }
-.chamada h3{
+.chamada h3 {
   text-align: center;
   font-weight: bold;
 }
-.chamada h3 span{
-  color: #FDCC06;
+.chamada h3 span {
+  color: #fdcc06;
 }
-.chamada img{
+.chamada img {
   position: absolute;
   right: 10%;
   top: 30%;
+  
 }
-.chamada img + img{
+.chamada img + img {
   left: 10%;
+}
+@media screen and (min-width:0) {
+  .chamada {
+    text-align: center;
+    font-size: 1rem;
+    position: relative;
+    padding: 1rem;
+  }
+  .chamada img {
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    width: 30px;
+  }
+  .chamada img + img {
+    left: 2%;
+ 
+  }
+}
+@media screen and (min-width:768px) {
+  .chamada {
+    font-size: 2rem;
+    position: relative;
+    padding: 7rem;
+  }
+  .chamada img {
+    width:initial;
+    right: 10%;
+    top: 30%;
+  }
+  .chamada img + img {
+    left: 10%;
+  }
 }
