@@ -4,6 +4,13 @@
 
  font-weight: bold;
 }
+.creditos{
+  font-size: 10px;
+}
+.creditos a{
+ color: #ffffff;
+ font-size: 10px;
+}
 @media screen and (min-width:0) {
   .rodape{
     font-size: 1rem;
