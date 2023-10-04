@@ -1,0 +1,29 @@
+.chamada{
+overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 2rem;
+  position: relative;
+}
+.chamada h2{
+  text-transform: uppercase;
+  color: #FDCC06;
+}
+.chamada h3{
+  text-align: center;
+  font-weight: bold;
+}
+.chamada h3 span{
+  color: #FDCC06;
+}
+.chamada img{
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
+.chamada img + img{
+  left: 10%;
+}

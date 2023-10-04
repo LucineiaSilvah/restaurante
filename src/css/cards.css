@@ -1,0 +1,36 @@
+.cards{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem;
+}
+.card{
+  width: 25%;
+  border: 2px double #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+  flex-direction: column;
+  position: relative;
+  transition: .500s ease-in-out;
+}
+
+.card:hover{
+  scale: 1.2;
+}
+.card__descricao{
+  margin-top: -20px;
+  width: 90%;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+}
+.card__descricao p+ p{
+text-transform: uppercase;
+}
+.card__preco{
+ 
+  font-weight: bold;
+  color: #FDCC06;
+}
